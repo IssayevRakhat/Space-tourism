@@ -1,0 +1,510 @@
+#header a {
+	padding-left: 20px;
+	color: lightgrey;
+	text-decoration: none;
+}
+
+#header a:link, a:visited{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+#header a:hover{
+border-bottom: 4.2px solid white;
+opacity: 0.7;
+}
+
+
+#Box{
+position: absolute;
+width: 830px;
+height: 96px;
+left: 610px;
+top: 40px;
+
+background: transparent;
+backdrop-filter: blur(81.5485px);
+/* Note: backdrop-filter has minimal browser support */
+z-index: 1;
+}
+
+.white{
+	color: #fff;
+}
+
+#under-line{
+position: absolute;
+width: 99px;
+height: 3px;
+left: 851px;
+top: 131px;
+
+background: #FFFFFF;
+}
+
+#s00{
+	position: absolute;
+	top: 79px;
+	left: 733px;
+	width: 18px;
+	height: 19px;
+}
+
+#s01{
+	position: absolute;
+	top: 79px;
+	left: 851px;
+	width: 15px;
+	height: 19px;
+}
+
+#s02{
+	position: absolute;
+	top: 79px;
+	left: 1029px;
+	width: 17px;
+	height: 19px;
+}
+
+#s03{
+	position: absolute;
+	top: 79px;
+	left: 1148px;
+	width: 17px;
+	height: 19px;
+}
+
+#Star{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 55px;
+	top:  64px;
+	z-index: 2;
+	border-radius: 100%;
+}
+
+#header{
+position: absolute;
+width: 1385px;
+top: -5px;
+height: 96px;
+z-index: 2;
+}
+
+#Home{
+position: absolute;
+width: 50px;
+height: 52px;
+left: 733px;
+top: 79px;
+}
+
+#Destination{
+position: absolute;
+width: 80px;
+height: 52px;
+left: 851px;
+top: 79px;
+}
+
+#Crew{
+position: absolute;
+width: 43px;
+height: 52px;
+left: 1029px;
+top: 79px;
+}
+
+#Technology{
+position: absolute;
+width: 80px;
+height: 52px;
+left: 1148px;
+top: 79px;
+}
+
+#Line1 {
+position: absolute;
+width: 473px;
+height: 1px;
+left: 167px;
+top: 88px;
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.25;
+}
+
+.main{
+	position: absolute;
+width: 1440px;
+height: 900px;
+background-repeat: no-repeat;
+margin: -7.9px;
+background: url('background-destination-desktop.jpg');
+}
+
+.main div:nth-child(3){
+	position: absolute;
+width: 382px;
+height: 34px;
+left: 166.5px;
+top: 212px;
+}
+
+
+
+#identificator{
+	position: absolute;
+height: 34px;
+left: 0%;
+right: 93.19%;
+top: calc(50% - 34px/2);
+/*  */
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+letter-spacing: 4.725px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.25;
+}
+
+#Name{
+	position: absolute;
+	width: 439px;
+height: 34px;
+left: 14.14%;
+right: 1.57%;
+/*  */
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+letter-spacing: 4.725px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+#toLinks{
+	position: absolute;
+	top: 310px;
+	right: 237.5px;
+	height: 34px;
+	width: 285.5px;
+z-index: 998;
+
+}
+
+#under-line-1{
+	position: absolute;
+left: 915px;
+
+top: 330px;
+bottom: 0%;
+height: 4px;
+width: 48px;
+background: #FFFFFF;
+z-index: 1;
+}
+
+#toLinks a{
+	color: #fff;
+	text-decoration: none;
+	height: 34px;
+	z-index: 999;
+}
+#toLinks a:hover{
+	
+	padding-bottom: 14.6px;
+	border-bottom: 3.3px solid white;
+	opacity: 0.5;
+}
+#Moon{
+	width: 39px;
+}
+#Mars{
+	width: 37px;	
+	margin-left: 10px;
+}
+#Europa{
+	width: 56px ;	
+	margin-left: 10px;
+}
+#Titan{
+	width: 42px;
+	margin-left:10px ;
+}
+
+#toInfo .Moon{
+ position: relative;
+top: 50px;
+left: 915px;
+font-family: Bellefair;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 115px;
+/* identical to box height */
+
+text-transform: uppercase;
+color: #FFFFFF;
+}
+#toInfo .Mars{
+ position: relative;
+left: 915px;
+top: 50px;
+
+font-family: Bellefair;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 115px;
+/* identical to box height */
+
+text-transform: uppercase;
+color: #FFFFFF;
+}
+#toInfo .Europa{
+ position: relative;
+left: 915px;
+font-family: Bellefair;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 115px;
+/* identical to box height */
+top: 50px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+#toInfo .Titan{
+ position: relative;
+left: 915px;
+top: 50px;
+font-family: Bellefair;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 115px;
+/* identical to box height */
+
+text-transform: uppercase;
+color: #FFFFFF;
+}
+#Info{
+width: 444px;
+height: 128px;
+position: relative;
+left: 915px;
+
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+
+color: #D0D6F9;
+
+}
+#Line2{
+	width: 444px;
+	height: 1px;
+	position: absolute;
+right: 80px;
+top: 680px;
+
+
+background: #383B4B;
+}
+#toDistance .text{
+position: relative;
+height: 17px;
+
+left: 915px;
+
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 2.3625px;
+text-transform: uppercase;
+
+color: #D0D6F9;
+}
+
+#toDistance .num{
+position: relative;
+
+left: 915px;
+height: 32px;
+
+
+font-family: Bellefair;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+#toTime .text{
+	
+	height: 17px;
+position: relative;
+top: 0px;
+left: 915px;
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 17px;
+/* identical to box height */
+letter-spacing: 2.3625px;
+text-transform: uppercase;
+color: #D0D6F9;
+}
+
+
+#toTime .num{
+position: relative;
+height: 32px;
+top: 0px;
+left: 915px;
+
+
+font-family: Bellefair;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.container1 {
+	min-width:1450px;
+	position: relative;
+
+}
+.container2 {
+	min-width:1450px;
+	position: relative;
+
+}
+.container3 {
+	min-width:1450px;
+	position: relative;
+
+}
+.container4 {
+	min-width:1450px;
+	position: relative;
+
+}
+#slider ul li {
+  position: relative;
+    
+  
+  width: 1450px;
+}
+#slider {
+	
+  overflow:hidden;
+  
+  margin:-200px auto 0 0;
+  
+}
+
+#slider ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  height:1450px ;
+  list-style: none;
+  float:left;
+}
+body{
+	background-color: grey;
+
+}
+.control_prev{
+  position: absolute;
+  color: white;
+  font-size:30px;
+  width: 20px;
+  height: 40px;
+  z-index: 90;
+  top: 60%;
+  left: 100px;
+  
+}
+.control_next{
+  position: absolute;
+  font-size:30px;
+  color: white;
+  width: 20px;
+  height: 40px;
+  z-index: 90;
+  top: 60%;
+  left: 800px;
+  
+}
+
+#imgMoon{
+	position: relative;
+	width: 445px;
+	height: 445px;
+	left: 240px;
+	top: 550px;
+}
+#imgMars{
+	position: relative;
+	width: 445px;
+	height: 445px;
+	left: 240px;
+	top: 550px;
+}
+
+#imgEuropa{
+	position: relative;
+	width: 445px;
+	height: 445px;
+	left: 240px;
+	top: 550px;
+}
+
+#imgTitan{
+	position: relative;
+	width: 445px;
+	height: 445px;
+	left: 240px;
+	top: 550px;
+}
+
+
+

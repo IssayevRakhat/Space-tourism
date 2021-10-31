@@ -1,0 +1,318 @@
+#header a {
+	padding-left: 20px;
+	color: lightgrey;
+	text-decoration: none;
+}
+
+#header a:link, a:visited{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+#header a:hover{
+border-bottom: 4.2px solid white;
+opacity: 0.7;
+}
+
+#Box{
+position: absolute;
+width: 830px;
+height: 96px;
+left: 610px;
+top: 40px;
+
+background: transparent;
+backdrop-filter: blur(81.5485px);
+/* Note: backdrop-filter has minimal browser support */
+z-index: 1;
+}
+
+.white{
+	color: #fff;
+}
+
+#under-line{
+position: absolute;
+width: 99px;
+height: 3px;
+left:1151px;
+top: 131px;
+
+background: #FFFFFF;
+}
+
+#s00{
+	position: absolute;
+	top: 79px;
+	left: 733px;
+	width: 18px;
+	height: 19px;
+}
+
+#s01{
+	position: absolute;
+	top: 79px;
+	left: 851px;
+	width: 15px;
+	height: 19px;
+}
+
+#s02{
+	position: absolute;
+	top: 79px;
+	left: 1029px;
+	width: 17px;
+	height: 19px;
+}
+
+#s03{
+	position: absolute;
+	top: 79px;
+	left: 1148px;
+	width: 17px;
+	height: 19px;
+}
+
+#Star{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 55px;
+	top:  64px;
+	z-index: 2;
+	border-radius: 100%;
+}
+
+#header{
+position: absolute;
+width: 1385px;
+top: -5px;
+height: 96px;
+z-index: 2;
+}
+#Line1 {
+position: absolute;
+width: 473px;
+height: 1px;
+left: 167px;
+top: 88px;
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.25;
+}
+
+.main{
+	position: absolute;
+width: 1440px;
+height: 900px;
+background-repeat: no-repeat;
+margin: -7.9px;
+background: url('background-technology-desktop.jpg');
+}
+
+
+
+
+#Home{
+position: absolute;
+width: 50px;
+height: 52px;
+left: 733px;
+top: 79px;
+}
+
+#Destination{
+position: absolute;
+width: 80px;
+height: 52px;
+left: 851px;
+top: 79px;
+}
+
+#Crew{
+position: absolute;
+width: 43px;
+height: 52px;
+left: 1029px;
+top: 79px;
+}
+
+#Technology{
+position: absolute;
+width: 80px;
+height: 52px;
+left: 1148px;
+top: 79px;
+}
+
+#identificator{
+	position: absolute;
+height: 34px;
+left: 166.5px;
+top: 212px;
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+letter-spacing: 4.725px;
+
+color: #FFFFFF;
+}
+
+#Name{
+	position: absolute;
+height: 34px;
+left: 210px;
+bottom: 654px;
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+letter-spacing: 4.725px;
+
+color: #FFFFFF;
+}
+
+#start{
+	position: absolute;
+height: 19px;
+left: 325px;
+top: calc(50% - 19px/2 - 126px);
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #D0D6F9;
+}
+#Topic{
+	position: absolute;
+height: 64px;
+left: 325px;
+top: calc(50% - 64px/2 - 110.5px);
+
+font-family: Bellefair;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 64px;
+
+color: #FFFFFF;
+}
+#text{
+	width: 444px;
+	height: 192px;
+	position: absolute;
+height: 192px;
+left: 325px;
+top: calc(50% - 192px/2 + 55.5px);
+
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+
+color: #D0D6F9
+}
+
+#imgCapsule{
+	position: absolute;
+width: 515px;
+height: 527px;
+left: 925px;
+top: 272px;
+}
+.circleNum:nth-child(2n+1){
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 31px;
+	color: #fff;
+	font-family: Bellefair;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 36.67px;
+}
+.circleNum:nth-child(1){
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 31px;
+	color: #000;
+	font-family: Bellefair;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 36.67px;
+}
+#firstCircle{
+	position: absolute;
+width: 80px;
+height: 80px;
+border-radius: 100%;
+left: 165px;
+top: 319px;
+background: transparent;
+border: 1px solid #fff;
+opacity: .3;
+}
+
+#secondCircle{
+position: absolute;
+width: 80px;
+height: 80px;
+border-radius: 100%;
+left: 165px;
+top: 411px;
+background: transparent;
+border: 1px solid #fff;
+opacity:.3;
+}
+
+#thirdCircle{
+position: absolute;
+width: 80px;
+height: 80px;
+border-radius: 100%;
+left: 165px;
+top: 504px;
+background: #fff;
+border: 1px solid #fff;
+}
+#first{
+	color: #fff;
+	opacity: initial;
+}
+#second{
+	color: #fff;
+	opacity: initial;
+}
+
+#Secondary .Technology:hover{
+	border: 1px solid #fff ;
+	opacity: 2;
+}
+#Secondary{
+	position: absolute;
+	width: 700px;
+	height: 303px;
+	bottom: 220px;
+	
+}
+.Technology{
+	position: absolute;
+	margin-top: -300px;
+}
